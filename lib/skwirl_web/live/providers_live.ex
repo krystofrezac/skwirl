@@ -1,4 +1,4 @@
-defmodule SkwirlWeb.ProviderLive do
+defmodule SkwirlWeb.ProvidersLive do
   use SkwirlWeb, :live_view
 
   alias Skwirl.Providers
