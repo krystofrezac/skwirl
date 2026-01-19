@@ -18,6 +18,7 @@ defmodule SkwirlWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/providers", ProvidersLive
   end
 
   # Other scopes may use custom stacks.
